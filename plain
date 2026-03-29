@@ -1,1 +1,8 @@
-
+paystream-simulator/
+├── index.html          (Interactive dashboard - the main demo)
+├── README.md           (Professional documentation)
+├── docker-compose.yml  (Infrastructure setup)
+├── main.go            (Load generator - 10K events)
+└── .github/
+    └── workflows/
+        └── loadtest.yml  (CI/CD for automated testing)
